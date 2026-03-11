@@ -1,0 +1,5 @@
+pyjwt
+jupyter
+tableauserverclient
+vizql-data-service-py
+python-dotenv

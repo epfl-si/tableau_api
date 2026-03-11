@@ -1,0 +1,11 @@
+# do not include configuration files in the repo
+*.env
+# but include the public configuration
+!public-prod.env
+!public-test.env
+
+# usual python stuff
+__pycache__/
+
+# ignore IDE stuff
+.idea/
