@@ -4,6 +4,9 @@
 !public-prod.env
 !public-test.env
 
+#notebook checkpoints
+.ipynb_checkpoints/
+
 # usual python stuff
 __pycache__/
 
