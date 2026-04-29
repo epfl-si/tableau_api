@@ -11,33 +11,16 @@ Several Notebooks are available:
 - The [public_jwt.ipynb](public_jwt.ipynb) notebook allows to access public data with a minimal configuration. 
 - The [direct_trust_jwt.ipynb](direct_trust_jwt.ipynb) notebook should only be used if you requested access through a service account to the ISCS-BI team, and a specific configuration has been given to you. 
 
-You can run the appropriate notebook either directly on [noto.epfl.ch](https://noto.epfl.ch) or locally after setting up the chosen system as described below. 
+You can run the appropriate notebook directly on [noto.epfl.ch](https://noto.epfl.ch) or locally after setting up your system as described below. 
 
-Setup on Noto
+Running on Noto
 -------------
 
-1. Login in [noto.epfl.ch](https://noto.epfl.ch).
-2. Open a terminal (File > New > Terminal)
-3. Create a new virtual environment called tableau_api and activate it.
-    ```shell
-    my_venvs_create tableau_api
-    my_venvs_activate tableau_api
-    ```
-4. Install the requirements
-    ```shell
-    pip install -r requirements.txt
-    ```
-5. Create a new kernel called "tableau_api" and displayed as "Tableau API":
-    ```shell
-    my_kernels_create tableau_api "Tableau API"
-    my_venvs_deactivate
-    ```
-6. Reload the webpage.
-7. Click on the link corresponding to the appropriate Notebook below to clone the tableau-api repository 
-  and open the right notebook directly:
-    - [personal_access_token.ipynb](https://noto.epfl.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fepfl-si%2Ftableau_api&urlpath=lab%2Ftree%2Ftableau_api%2Fpersonal_access_token.ipynb&branch=master)
-    - [public_jwt.ipynb](https://noto.epfl.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fepfl-si%2Ftableau_api&urlpath=lab%2Ftree%2Ftableau_api%public_jwt.ipynb&branch=master)
-    - [direct_trust_jwt.ipynb](https://noto.epfl.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fepfl-si%2Ftableau_api&urlpath=lab%2Ftree%2Ftableau_api%direct_trust_jwt.ipynb&branch=master)
+All libraries are already installed on noto, so all you have to do is click on the link corresponding to the 
+appropriate Notebook below to clone the tableau-api repository and open the right notebook directly:
+- [personal_access_token.ipynb](https://noto.epfl.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fepfl-si%2Ftableau_api&urlpath=lab%2Ftree%2Ftableau_api%2Fpersonal_access_token.ipynb&branch=master)
+- [public_jwt.ipynb](https://noto.epfl.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fepfl-si%2Ftableau_api&urlpath=lab%2Ftree%2Ftableau_api%public_jwt.ipynb&branch=master)
+- [direct_trust_jwt.ipynb](https://noto.epfl.ch/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fepfl-si%2Ftableau_api&urlpath=lab%2Ftree%2Ftableau_api%direct_trust_jwt.ipynb&branch=master)
 
 
 Setup locally
